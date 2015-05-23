@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<!--web page : https://github.com/pinceladasdaweb/CSS3-Perspective-Carousel -->
+    <head>
+        <meta charset="utf-8">
+        <title>Tech Mahindra - Virtual Shopping Mall App</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="../lib/carousel.css">
+    </head>
+    <body>
+        <h1>Tech Mahindra - Virtual Shopping Mall App</h1>
+        <div class="carousel">
+            <ul class="carousel-wrapper">
+                <li class="carousel-box">
+                   <center>
+					<b>iPhone 5</b><br><br>
+					<img src="assets/img/i5.jpg" width="100%"  alt="CSS3 Perspective Carousel">
+					</center>
+                </li>
+
+                <li class="carousel-box">
+                   <center>
+					<b>iPhone 5S</b><br><br>
+					<img src="assets/img/i5s.jpg"  width="100%" alt="CSS3 Perspective Carousel">
+					</center>
+                </li>
+
+                <li class="carousel-box">
+                   <center>
+					<b>iPhone 5C</b><br><br>
+					<img src="assets/img/i5c.jpg" width="100%" alt="CSS3 Perspective Carousel">
+					</center>
+                </li>
+
+                <li class="carousel-box">
+                    <center>
+					<b>iPhone 6 Plus</b><br><br>
+					<img src="assets/img/i6p.jpg" width="100%" height = "100%" alt="CSS3 Perspective Carousel">
+					</center>
+                </li>
+
+                <li class="carousel-box">
+                                        <center>
+					<b>iPhone 6</b><br><br>
+					<img src="assets/img/i6.jpg" width="100%" height = "100%" alt="CSS3 Perspective Carousel">
+					</center>
+                </li>
+
+            </ul>
+        </div><br><br><br><br><br>
+		<div>
+		<b>Items Added to Cart :</b>
+		</div>
+
+        <!--[if lt IE 9]>
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <![endif]-->
+        <!--[if gte IE 9]><!-->
+            <script src="../build/jquery.min.js"></script>
+        <!--<![endif]-->
+        <script src="../lib/carousel.js"></script>
+        <script>
+            (function() {
+                Carousel.init({
+                    target: $('.carousel')
+                });
+            }());
+        </script>
+    </body>
+</html>
